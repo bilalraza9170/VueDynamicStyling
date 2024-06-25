@@ -18,9 +18,9 @@
     </header>
     <section id="styling">
       <!-- object syntax for style is specific in the vue -->
-      <div class="demo" :class="{active:boxA}" @click="box('A')"></div>
-      <div class="demo" :class="{active:boxB}" @click="box('B')"></div>
-      <div class="demo" :class="{active:boxC}" @click="box('C')"></div>
+      <div class="demo" :class="boxAClasses" @click="box('A')"></div>
+      <div class="demo" :class="boxBClasses" @click="box('B')"></div>
+      <div class="demo" :class="boxCClasses" @click="box('C')"></div>
     </section>
   </body>
 </html>
